@@ -19,3 +19,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/elixir_middleware_memory_issue](https://hexdocs.pm/elixir_middleware_memory_issue).
 
+TODO:
+- be able to identify the lifecycle of the binary we are passing thought the middleware.
+So far from the profiling it is not clear which binary it is. Or if it exhibits the lingering
+behaviour we are trying to reproduce
