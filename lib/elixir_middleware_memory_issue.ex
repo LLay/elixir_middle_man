@@ -10,13 +10,21 @@ defmodule ElixirMiddlewareMemoryIssue do
   require Logger
 
   def start(_start_type, _start_args) do
-    Logger.info("starting")
-    children = [
-      Middleware,
-      Sender
-    ]
+    Logger.info("Starting #{__MODULE__}")
+    # children = [
+    #   Middleware,
+    #   Sender
+    # ]
+    # {:ok, pid} = Supervisor.start_link(__MODULE__, [nil], name: __MODULE__)
+    # {:ok, _pid} = Supervisor.start_link(Profiler, middleware_pid)
+    # {:ok, _pid} = Supervisor.start_link(Sender, nil)
 
-    {:ok, pid} = Supervisor.start_link(children, strategy: :one_for_one)
+    # {:ok, pid} = Supervisor.start_link(DynamicSup, nil)
+    children = [
+      {DynamicSup, strategy: :one_for_all, name: DynamicSup}
+    ]
+    {:ok, pid} = Supervisor.start_link(children, strategy: :one_for_all)
+
     Logger.info("started")
     {:ok, pid}
   end
