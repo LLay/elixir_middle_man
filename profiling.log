@@ -1,0 +1,1203 @@
+^CLyon-Lay-MBP:elixir_middleware_memory_issue llay$ mix run --no-halt
+
+17:36:51.257 [info]  Starting Elixir.ElixirMiddlewareMemoryIssue
+
+17:36:51.258 [info]  Starting Elixir.DynamicSup
+
+17:36:51.260 [info]  Starting Elixir.Middleware
+{:ok, #PID<0.161.0>}
+
+17:36:51.266 [info]  Starting Elixir.Profiler
+
+17:36:51.269 [info]  Starting Elixir.Sender
+
+17:36:51.271 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:51.272 [info]
+      binary: [],
+      num_minor_gcs: 0
+
+17:36:51.373 [info]
+      binary: [{360192752, 336, 1}, {360193136, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:51.474 [info]
+      binary: [{360192752, 336, 1}, {360193136, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:51.571 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:51.575 [info]
+      binary: [{360187888, 336, 1}, {360188272, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:51.676 [info]
+      binary: [{360187888, 336, 1}, {360188272, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:51.777 [info]
+      binary: [{360187888, 336, 1}, {360188272, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:51.873 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:51.878 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:51.979 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:52.080 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:52.173 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:52.181 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:52.282 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:52.383 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:52.475 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:52.484 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:52.585 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:52.686 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:52.775 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:52.787 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:52.888 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:52.989 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:53.076 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:53.090 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:53.191 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:53.292 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:53.377 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:53.393 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:53.494 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:53.595 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:53.679 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:53.696 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:53.797 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:53.899 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:53.979 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:53.999 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:54.100 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:54.201 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:54.280 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:54.302 [info]
+      binary: [{359929968, 336, 1}, {359936664, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:54.403 [info]
+      binary: [{359929968, 336, 1}, {359936664, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:54.504 [info]
+      binary: [{359929968, 336, 1}, {359936664, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:54.581 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:54.605 [info]
+      binary: [{359929968, 336, 1}, {359937080, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:54.706 [info]
+      binary: [{359929968, 336, 1}, {359937080, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:54.807 [info]
+      binary: [{359929968, 336, 1}, {359937080, 365, 1}],
+      num_minor_gcs: 8
+
+17:36:54.882 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:54.908 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:55.009 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:55.110 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 1}],
+      num_minor_gcs: 2
+
+17:36:55.183 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:55.211 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:55.312 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:55.413 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:55.484 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:55.514 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:55.615 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:55.716 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:55.785 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:55.817 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:55.918 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:56.019 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:56.086 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:56.120 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:56.221 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:56.322 [info]
+      binary: [{359929968, 336, 1}, {359924840, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:56.387 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:56.423 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:56.524 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:56.625 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:56.689 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:56.726 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:56.827 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:56.928 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:56.989 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:57.029 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:57.130 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:57.231 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:57.290 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:57.332 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:57.433 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:57.534 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:57.591 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:57.635 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:57.736 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:57.837 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:57.892 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:57.938 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:58.039 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:58.140 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:58.193 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:58.241 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:58.342 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:58.443 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:58.494 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:58.544 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:58.645 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:58.746 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:58.795 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:58.847 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:58.948 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:59.049 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:59.096 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:59.150 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:59.251 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 1}],
+      num_minor_gcs: 2
+
+17:36:59.352 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 1}],
+      num_minor_gcs: 2
+
+17:36:59.397 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:59.453 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:59.554 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:36:59.655 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:36:59.698 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:36:59.756 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:36:59.857 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:59.958 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 2
+
+17:36:59.999 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:00.059 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:00.160 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:00.261 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:00.300 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:00.362 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:00.463 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:00.564 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:00.601 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:00.665 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:00.766 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:00.867 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:00.902 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:00.968 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.069 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.170 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.203 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:01.271 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:01.372 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:01.481 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:01.508 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:01.582 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.683 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.784 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:01.809 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:01.885 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:01.986 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:02.087 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:02.110 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:02.188 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:02.289 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:02.390 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:02.411 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:02.491 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:02.592 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:02.693 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:02.712 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:02.794 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:02.895 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:02.996 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:03.013 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:03.097 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.198 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.299 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.314 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:03.400 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:03.501 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:03.602 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:03.615 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:03.703 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.804 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.905 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:03.916 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:04.006 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:04.107 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:04.208 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:04.217 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:04.309 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:04.410 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:04.511 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:04.518 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:04.612 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:04.713 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:04.814 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:04.819 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:04.915 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:05.016 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:05.117 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:05.120 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:05.218 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:05.319 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:05.420 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:05.421 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:05.521 [info]
+      binary: [{359929968, 336, 1}, {359941104, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:05.622 [info]
+      binary: [{359929968, 336, 1}, {359941104, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:05.722 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:05.723 [info]
+      binary: [{360187600, 336, 1}, {360187984, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:05.824 [info]
+      binary: [{360187600, 336, 1}, {360187984, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:05.925 [info]
+      binary: [{360187600, 336, 1}, {360187984, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:06.023 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:06.026 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:06.127 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:06.228 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:06.324 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:06.329 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:06.430 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:06.531 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:06.625 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:06.632 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:06.733 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:06.834 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:06.927 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:06.935 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.036 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.137 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.227 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:07.238 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:07.339 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:07.440 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:07.528 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:07.541 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.642 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.743 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:07.829 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:07.844 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:07.945 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:08.046 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:08.130 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:08.147 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:08.248 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:08.349 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:08.431 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:08.450 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:08.551 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:08.652 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:08.732 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:08.753 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:08.854 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:08.955 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:09.033 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:09.056 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.157 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.258 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.334 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:09.359 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:09.460 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:09.561 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:09.635 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:09.662 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.763 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.864 [info]
+      binary: [{359929968, 336, 1}, {359937112, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:09.936 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:09.965 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.066 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.167 [info]
+      binary: [{359929968, 336, 1}, {359937976, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.237 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:10.268 [info]
+      binary: [{359929968, 336, 1}, {359941104, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:10.369 [info]
+      binary: [{359929968, 336, 1}, {359941104, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:10.470 [info]
+      binary: [{359929968, 336, 1}, {359941104, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:10.538 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:10.571 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.672 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.773 [info]
+      binary: [{359929968, 336, 1}, {359940688, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:10.839 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:10.874 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:10.975 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:11.076 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:11.140 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:11.177 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:11.278 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:11.379 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:11.441 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:11.480 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:11.581 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:11.682 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:11.743 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:11.783 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:11.884 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:11.985 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:12.043 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:12.086 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:12.187 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:12.288 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:12.344 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:12.389 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:12.490 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:12.591 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:12.645 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:12.692 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:12.793 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:12.894 [info]
+      binary: [{359929968, 336, 1}, {359936248, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:12.946 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:12.995 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.096 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.197 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.247 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:13.298 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:13.399 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:13.500 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:13.548 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:13.601 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.702 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.803 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:13.849 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:13.904 [info]
+      binary: [{359929968, 336, 1}, {359938424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:14.005 [info]
+      binary: [{359929968, 336, 1}, {359938424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:14.106 [info]
+      binary: [{359929968, 336, 1}, {359938424, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:14.150 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:14.207 [info]
+      binary: [{359929968, 336, 1}, {359941136, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:14.308 [info]
+      binary: [{359929968, 336, 1}, {359941136, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:14.409 [info]
+      binary: [{359929968, 336, 1}, {359941136, 365, 2}],
+      num_minor_gcs: 2
+
+17:37:14.451 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:14.510 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:14.611 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:14.712 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:14.752 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:14.813 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:14.914 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:15.015 [info]
+      binary: [{359929968, 336, 1}, {359924872, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:15.053 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:15.116 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:15.217 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:15.318 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:15.354 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:15.419 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:15.520 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:15.621 [info]
+      binary: [{359929968, 336, 1}, {359936696, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:15.655 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:15.722 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:15.823 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:15.924 [info]
+      binary: [{359929968, 336, 1}, {359924424, 365, 2}],
+      num_minor_gcs: 8
+
+17:37:15.956 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:16.025 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.126 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.227 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.257 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:16.328 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:16.429 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 3}],
+      num_minor_gcs: 8
+
+17:37:16.530 [info]
+      binary: [{359929968, 336, 1}, {359937560, 365, 1}],
+      num_minor_gcs: 8
+
+17:37:16.558 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+
+17:37:16.631 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.732 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.833 [info]
+      binary: [{359929968, 336, 1}, {359939360, 365, 3}],
+      num_minor_gcs: 2
+
+17:37:16.859 [info]  recieved data (329 bytes): '"\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata\n    "'
+^C
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution

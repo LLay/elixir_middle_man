@@ -15,9 +15,7 @@ defmodule Middleware do
   end
 
   @impl true
-  def init(state) do
-    {:ok, state}
-  end
+  def init(state), do: {:ok, state}
 
   def call_sender(args) do
     GenServer.call(__MODULE__, {:call_sender, args})

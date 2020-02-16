@@ -20,7 +20,7 @@ defmodule Sender do
 
   def loop() do
     # `data` is a RefC binary, as it is greater than the 64 byte threshold
-    # below which binaries are copied to the process heap
+    # below which binaries are kept on the process heap
     # https://erlang.org/doc/efficiency_guide/binaryhandling.html#heap-binaries
     data = "
     datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata
@@ -30,7 +30,6 @@ defmodule Sender do
     "
 
     Middleware.call_sender(data)
-    # Middleware.execute_function(&Sender.recieve/1, data)
 
     Process.sleep(@loop_interval)
 

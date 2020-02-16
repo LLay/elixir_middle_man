@@ -16,10 +16,7 @@ defmodule Profiler do
     Task.start_link(__MODULE__, :start_loop, [pid])
   end
 
-  def start_loop(pid) do
-    loop(pid)
-  end
-  # def start_loop(pid), do: loop(pid)
+  def start_loop(pid), do: loop(pid)
 
   def loop(pid) do
     profile(pid)
@@ -27,9 +24,6 @@ defmodule Profiler do
     loop(pid)
   end
 
-  @doc """
-  profile
-  """
   def profile(pid) do
     info = :recon.info(pid)
     garbage_collection = info[:memory_used][:garbage_collection]
@@ -43,7 +37,7 @@ defmodule Profiler do
     # Binary is of the form [{BinaryId, BinarySize, BinaryRefcCount}, ...]
     binary = :recon.info(pid, :binary) |> elem(1)
 
-    Logger.info("
+    Logger.info("Middleware process info:
       binary: #{inspect binary |> Enum.slice(0..20)},
       num_minor_gcs: #{inspect num_minor_gcs}")
   end
