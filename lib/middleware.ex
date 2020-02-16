@@ -19,23 +19,12 @@ defmodule Middleware do
     {:ok, state}
   end
 
-  def execute_function(func, args) do
-    GenServer.call(__MODULE__, {:execute_function, wrap_function(func), args})
-  end
-
-  def profile_self(func, args) do
-    Logger.info("profile")
-    GenServer.call(__MODULE__, {:profile_self, wrap_function(func), args})
+  def call_sender(args) do
+    GenServer.call(__MODULE__, {:call_sender, args})
   end
 
   @impl true
-  def handle_call({:execute_function, func, args}, _from, state) do
-    {:reply, func.(args), state}
-  end
-
-  def wrap_function(func) do
-    fn args ->
-      func.(args)
-    end
+  def handle_call({:call_sender, args}, _from, state) do
+    {:reply, Sender.recieve(args), state}
   end
 end
